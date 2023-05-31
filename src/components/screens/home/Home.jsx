@@ -12,10 +12,8 @@ const Home = () => {
         const fetchData = async () => {
             const data = await carService.getAll();
 
-
             setCars(data)
         }
-
         fetchData()
     }, [])
 
